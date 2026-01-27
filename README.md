@@ -65,7 +65,7 @@ I design **scalable data pipelines**, build **BI dashboards**, and turn **raw da
 ## 🎓 Certifications
 
 - **Data Engineer Professional — DataCamp**  
-  https://www.datacamp.com/certificate/DEA0010725059064
+  https://www.datacamp.com/certificate/DE0011352728074
 
 - **Data Engineer Associate — DataCamp**  
   https://www.datacamp.com/certificate/DEA0010725059064
