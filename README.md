@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2D9EF7&center=true&vCenter=true&width=700&lines=Data+Engineer+%7C+Data+Analyst+%7C+BI+%7C+Cloud;Building+reliable+data+pipelines+for+decision-making;ETL+%7C+Analytics+%7C+Big+Data+%7C+Machine+Learning" alt="Typing SVG" />
 </div>
 
-🚀 **Data Engineer & Data Analyst** with a strong background in **Applied Mathematics, Statistics, and Computer Science (BAC+4)**.  
+🚀 **Data Engineer & Data Analyst** with a strong background in **Applied Mathematics, Statistics, and Computer Science (BAC+5)**.  
 I design **scalable data pipelines**, build **BI dashboards**, and turn **raw data into actionable business insights**.
 
 🎯 Goal: **transform data into measurable impact using modern data stacks**.
