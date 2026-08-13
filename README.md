@@ -254,3 +254,49 @@ Lead Scoring
 Human Handoff Decision
      ↓
 Persist Conversation
+
+## 🎓 Certifications
+
+### 🤖 Artificial Intelligence
+
+- **Associate AI Engineer for Developers — DataCamp**  
+  https://www.datacamp.com/certificate/AIEDA0016774882462
+
+### 🔹 Data Engineering
+
+- **Data Engineer Professional — DataCamp**  
+  https://www.datacamp.com/certificate/DE0011352728074
+
+- **Data Engineer Associate — DataCamp**  
+  https://www.datacamp.com/certificate/DEA0010725059064
+
+### 📊 Data Analytics
+
+- **Data Analyst Professional — DataCamp**  
+  https://www.datacamp.com/certificate/DA0023618393861
+
+- **Data Analyst Associate — DataCamp**  
+  https://www.datacamp.com/certificate/DAA0016617709565
+
+- **Python for Data — DataCamp**  
+  https://www.datacamp.com/certificate/PDA0011021311770
+
+- **SQL Associate — DataCamp**  
+  https://www.datacamp.com/certificate/SQA0010579128768
+
+- **Data Literacy — DataCamp**  
+  https://www.datacamp.com/skill-verification/DL0036841600729
+
+### 🗄️ SQL
+
+- **SQL Advanced — HackerRank**
+- **SQL Intermediate — HackerRank**
+
+### 🌍 Languages & Professional Skills
+
+- **English for Business and Entrepreneurship MOOC — Canvas Credentials**
+
+---
+
+👉 **DataCamp Portfolio:**  
+https://datacamp.com/portfolio/sandaniainatsinjonantosoa
