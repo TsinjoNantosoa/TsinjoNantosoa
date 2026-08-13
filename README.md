@@ -1,125 +1,256 @@
 # 👋 Hi, I'm **Sandaniaina Tsinjo Nantosoa**
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2D9EF7&center=true&vCenter=true&width=700&lines=Data+Engineer+%7C+Data+Analyst+%7C+BI+%7C+Cloud;Building+reliable+data+pipelines+for+decision-making;ETL+%7C+Analytics+%7C+Big+Data+%7C+Machine+Learning" alt="Typing SVG" />
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2D9EF7&center=true&vCenter=true&width=850&lines=AI+Engineer+%7C+RAG+%7C+AI+Agents+%7C+Automation;Python+%7C+FastAPI+%7C+LangGraph+%7C+OpenAI;Building+Production-Ready+AI+Systems;From+AI+Prototypes+to+Reliable+Business+Applications"
+    alt="Typing SVG"
+  />
 </div>
 
-🚀 **Data Engineer & Data Analyst** with a strong background in **Applied Mathematics, Statistics, and Computer Science (BAC+5)**.  
-I design **scalable data pipelines**, build **BI dashboards**, and turn **raw data into actionable business insights**.
+## 🚀 About Me
 
-🎯 Goal: **transform data into measurable impact using modern data stacks**.
+I'm an **AI Engineer & Backend Developer** specializing in **Generative AI, RAG systems, AI agents, workflow automation, and production-grade Python/FastAPI applications**.
+
+I hold a **Master's degree (BAC+5) in Applied Mathematics, Computer Science and Statistics** from the University of Antananarivo.
+
+My focus is not only building AI prototypes — I build complete systems around them:
+
+- 🤖 AI Agents and multi-step workflows
+- 🧠 Retrieval-Augmented Generation (RAG)
+- ⚙️ AI & business process automation
+- 🚀 FastAPI backend services
+- 🗄️ PostgreSQL, Redis and vector databases
+- 🔐 Authentication, RBAC and API security
+- 🐳 Dockerized deployments
+- 🧪 Testing, monitoring and reliability
+- 🌐 React / TypeScript AI applications
+
+> **My goal:** build reliable AI systems that solve real business problems and can actually run in production.
 
 ---
 
-## 🛠️ Tech Stack
+# 🧠 AI Engineering Stack
 
-### 🔹 Data Engineering & Cloud
+## 🤖 Generative AI, RAG & Agents
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RAG-2D9EF7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI_Agents-7B61FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Embeddings-FF6F61?style=for-the-badge" />
+</p>
+
+**Experience with:**
+
+- Agentic workflows
+- LangGraph StateGraph
+- Tool / function calling
+- Human-in-the-loop workflows
+- Conversation memory
+- Prompt engineering
+- Prompt injection protection
+- RAG evaluation
+- Hybrid retrieval
+- BM25 + dense search
+- Reciprocal Rank Fusion
+- Cross-encoder reranking
+- Grounded AI responses
+- Multi-tenant AI architecture
+
+---
+
+## ⚡ Backend & APIs
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge" />
+</p>
+
+**Backend engineering:**
+
+- REST APIs
+- SSE streaming
+- Async processing
+- Service / repository architecture
+- Input validation
+- Error handling
+- Retry / fallback strategies
+- Rate limiting
+- Health checks
+- Structured logging
+
+---
+
+## 🗄️ Databases & Vector Search
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge" />
+</p>
+
+---
+
+## ⚙️ AI Automation
+
+<p align="center">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/Webhooks-2D9EF7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=airtable&logoColor=white" />
+</p>
+
+I design automation workflows involving:
+
+- CRM automation
+- Lead qualification
+- API integrations
+- Webhooks
+- Airtable
+- Google Calendar
+- AI processing
+- Error handling & retries
+- Deduplication
+- Notifications
+- Human validation workflows
+
+---
+
+## 🌐 Frontend
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+---
+
+## ☁️ DevOps & Reliability
+
+<p align="center">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
 
-### 🔹 Data Analysis & Business Intelligence
-<p align="center">
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=plotly&logoColor=white" />
-  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+I care about production reliability:
 
-### 🔹 Machine Learning
-<p align="center">
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-</p>
-
----
-
-## 📂 Highlight Projects
-
-- **IoT Real-Time Data Pipeline (Kafka + Spark + AWS S3)**  
-  Real-time streaming, Spark processing, Parquet storage, scalable architecture.
-
-- **Orchestrated ETL Pipeline (Airflow + PostgreSQL + Docker)**  
-  API ingestion → Kafka → Airflow DAG → PostgreSQL with monitoring and data quality.
-
-- **Weather ETL Pipeline (Airflow TaskFlow API)**  
-  Automated API ingestion, transformation, and scheduling for analytics.
-
-- **Machine Learning Projects**  
-  Classification & regression pipelines with preprocessing, tuning, and evaluation.
-
-- **DataCamp Portfolio Projects**  
-  Retail ETL, PySpark cleaning, motorcycle sales analytics.  
-  👉 https://datacamp.com/portfolio/sandaniainatsinjonantosoa
+- Docker / Docker Compose
+- CI/CD
+- Environment-based configuration
+- API security
+- JWT authentication
+- Role-Based Access Control
+- CSP / HSTS security headers
+- PII protection
+- Logging
+- Automated testing
+- Monitoring and health checks
 
 ---
 
-## 🎓 Certifications
+# 💼 Professional Experience
 
-- **Data Engineer Professional — DataCamp**  
-  https://www.datacamp.com/certificate/DE0011352728074
+## 🧠 AI Engineer — Conversational AI & RAG Systems
 
-- **Data Engineer Associate — DataCamp**  
-  https://www.datacamp.com/certificate/DEA0010725059064
+**Humans4Help Madagascar / Alan Allman Associates**
 
-- **Data Analyst Professional — DataCamp**  
-  https://www.datacamp.com/certificate/DA0023618393861
+Worked on a production conversational AI platform serving multiple organizations.
 
-- **Data Analyst Associate — DataCamp**  
-  https://www.datacamp.com/certificate/DAA0016617709565
+### Key Contributions
 
-- **Python for Data — DataCamp**  
-  https://www.datacamp.com/certificate/PDA0011021311770
+- Built **FastAPI backend services** for conversational AI
+- Developed **multi-tenant RAG pipelines**
+- Integrated **OpenAI + LangChain**
+- Used **Qdrant / vector search** for knowledge retrieval
+- Implemented **Redis-based session management**
+- Built **SSE token streaming**
+- Created document ingestion and indexing pipelines
+- Implemented AI security controls and prompt-injection protections
+- Added authentication, rate limiting and observability
+- Containerized services with **Docker**
+- Worked with **GitHub Actions CI/CD**
+- Supported multiple production AI assistants
 
-- **SQL Associate — DataCamp**  
-  https://www.datacamp.com/certificate/SQA0010579128768
+### Stack
 
-- **Data Literacy — DataCamp**  
-  https://www.datacamp.com/skill-verification/DL0036841600729
-
----
-
-## 📈 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TsinjoNantosoa&theme=react-dark&hide_border=true&area=true" />
-</div>
+`Python` · `FastAPI` · `LangChain` · `OpenAI` · `Qdrant` · `PostgreSQL` · `Redis` · `React` · `TypeScript` · `Docker`
 
 ---
 
-## ⚡ GitHub Stats
+## ⚙️ AI Automation Developer — Freelance
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TsinjoNantosoa&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-</div>
+I build automation systems connecting business tools, APIs and AI models.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TsinjoNantosoa&layout=compact&theme=radical&hide_border=true" />
-</div>
+### Areas
 
----
-
-## 📫 Connect with Me
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/sandaniaina-tsinjo-nantosoa-b6209a330/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="https://github.com/TsinjoNantosoa">
-    <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github" />
-  </a>
-</div>
+- n8n workflow development
+- Airtable automation
+- REST API integration
+- Webhooks
+- CRM workflows
+- Google Calendar integrations
+- FastAPI microservices
+- JavaScript Code Nodes
+- Python processing services
+- Error handling / retries
+- Deduplication
+- Logging and monitoring
 
 ---
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=29B5E8&center=true&vCenter=true&width=600&lines=Data+%7C+Cloud+%7C+BI+%7C+Machine+Learning;Let's+turn+data+into+impact!+🚀" />
-</div>
+# 🚀 Featured Projects
+
+## 🤖 AI Business Operating System — AI BOS
+
+A full-stack **AI-powered CRM and sales operating system** designed around intelligent lead management and autonomous AI workflows.
+
+### Features
+
+- AI lead qualification
+- AI conversational sales assistant
+- LangGraph agent orchestration
+- Multi-step StateGraph workflows
+- Conversation memory
+- Automatic lead field extraction
+- Lead scoring
+- Lead temperature classification
+- Human handoff
+- CRM pipeline management
+- Appointments
+- Tasks
+- Notifications
+- Analytics
+- RBAC
+- OAuth architecture
+- Background jobs
+
+### AI Workflow
+
+```text
+User Message
+     ↓
+Validate Input
+     ↓
+Safety Check
+     ↓
+Load Context
+     ↓
+OpenAI / LLM
+     ↓
+Extract Lead Information
+     ↓
+Lead Scoring
+     ↓
+Human Handoff Decision
+     ↓
+Persist Conversation
