@@ -1,0 +1,84 @@
+name: Generate AI Core Contribution Graph
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-core-output
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate dark and light AI Core SVGs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: node scripts/generate-contribution-core.mjs
+
+      - name: Validate generated XML
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+
+          expected = {
+              Path("dist/ai-core-dark.svg"),
+              Path("dist/ai-core-light.svg"),
+          }
+          generated = set(Path("dist").glob("ai-core-*.svg"))
+          if generated != expected:
+              raise SystemExit(f"Expected {sorted(expected)}, generated {sorted(generated)}")
+
+          for path in sorted(generated):
+              root = ElementTree.parse(path).getroot()
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise SystemExit(f"{path} does not have an SVG root element")
+              print(f"Validated {path}")
+          PY
+
+      - name: Publish SVGs to output branch
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/ai-core-output
+        run: |
+          set -euo pipefail
+          rm -rf "$OUTPUT_DIR"
+          mkdir -p "$OUTPUT_DIR"
+          cp dist/ai-core-dark.svg dist/ai-core-light.svg "$OUTPUT_DIR/"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin output >/dev/null 2>&1; then
+            git fetch origin output
+            git switch --force-create output origin/output
+          else
+            git switch --orphan output
+          fi
+
+          git rm -rf --ignore-unmatch .
+          git clean -fdx
+          cp "$OUTPUT_DIR/ai-core-dark.svg" "$OUTPUT_DIR/ai-core-light.svg" .
+          git add -- ai-core-dark.svg ai-core-light.svg
+
+          if git diff --cached --quiet; then
+            echo "Contribution SVGs are already current."
+          else
+            git commit -m "chore: refresh AI Core contribution graph"
+            git push origin output
+          fi
